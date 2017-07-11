@@ -9,3 +9,50 @@ a.symbol {
 a.symbol:hover {
     color: #BCD4DA;
 }
+
+nav.main-nav {
+  background: #f5f7fa;
+}
+
+nav.main-nav a {
+  color: #c3cfe2;
+}
+nav.main-nav a:hover {
+  color: #607D8B;
+}
+
+@media (max-width: 480px) {
+  nav.main-nav a {
+  color: #607D8B;
+  }
+}
+
+.profile {
+  background: #c3cfe2;
+  background: linear-gradient(180deg, #f5f7fa 0%, #c3cfe2 100%);
+  box-sizing: border-box;
+
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  z-index: -5;
+}
+
+.profile:before {
+    content: "";
+    background: white;
+    height: 300px;
+    transform: skewY(6deg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+}
+
+.profile:before {
+    bottom: -110px;
+}
+
+#e7f0fd
+#accbee
