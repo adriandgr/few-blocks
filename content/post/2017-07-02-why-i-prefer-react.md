@@ -1,6 +1,12 @@
 ---
 title: Why I prefer React
+description: Compared to other frameworks, I find development in React more enjoyable for the time being.
 date: 2017-07-02T18:47:00-04:00
+tags: [
+  "react",
+  "angular",
+  "frameworks",
+  ]
 ---
 
 ![Screenshot 2017-07-02 21.32.59.png](/uploads/Screenshot%202017-07-02%2021.32.59.png)
