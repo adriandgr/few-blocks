@@ -1,8 +1,8 @@
 # Site settings
-baseurl = "http://nodejh.com/"
+baseurl = "https://hangman-pamela-20435.netlify.com"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
-title = "Blog Title"
+title = "few blocks"
 theme = "hugo-theme-cactus-plus"
 
 # Enter your tracking code to enable Google Analytics
@@ -73,6 +73,6 @@ hasCJKLanguage = true
 
 # Add additional social link entries underneath
 [social]
-	facebook-square = "your_facebook_link"
+	facebook-square = "https://www.linkedin.com/in/adriandgr/"
   twitter-square = "https://twitter.com/ONZOart"
-  github-square = "your_github_link"
+  github-square = "https://github.com/adriandgr/"
