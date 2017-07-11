@@ -1,0 +1,11 @@
+/* Theme overrides */
+a.symbol {
+    color: #cdd4da;
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin-right: 0.85rem;
+}
+
+a.symbol:hover {
+    color: #BCD4DA;
+}

@@ -14,6 +14,7 @@ hasCJKLanguage = true
 
 [params]
 	name = "few blocks"
+	author = "Adrian Diaz"
 	description = "Blog Description"
 	bio = "some catchy thing"
 	# Enter optionally your twitter account
@@ -41,7 +42,7 @@ hasCJKLanguage = true
 	baiduAnalytics = 'your_baidu_tongji_code'
 
 	# Add custom assets with their paths relative to the static folder
-	customCSS = []
+	customCSS = ['css/fewblocks.css']
 	customJS  = []
 
 	# The variables below are optionally too and can be used to
@@ -74,5 +75,6 @@ hasCJKLanguage = true
 # Add additional social link entries underneath
 [social]
 	linkedin = "https://www.linkedin.com/in/adriandgr/"
+	instagram = "https://www.instagram.com/onzo.art/"
   twitter = "https://twitter.com/ONZOart"
   github = "https://github.com/adriandgr/"
