@@ -6,7 +6,7 @@ title = "few blocks"
 theme = "hugo-theme-cactus-plus"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "your_google_analytics_code"
+googleAnalytics = "UA-67757719-2"
 hasCJKLanguage = true
 
 [permalinks]
@@ -33,7 +33,7 @@ hasCJKLanguage = true
 	enableGithubIssuesTips = false
 
 	# Enable googleAnalytics
-	enableGoogleAnalytics = false
+	enableGoogleAnalytics = true
 
 	# Enable baiduAnalytics
 	enableBaiduAnalytics = false
