@@ -54,5 +54,8 @@ nav.main-nav a:hover {
     bottom: -110px;
 }
 
-#e7f0fd
-#accbee
+@media (max-width: 420px) {
+  .profile:before {
+    bottom: -90px;
+  }
+}
