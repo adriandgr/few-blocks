@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://hangman-pamela-20435.netlify.com"
+baseurl = "https://hangman-pamela-20435.netlify.com/"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
 title = "few blocks"
