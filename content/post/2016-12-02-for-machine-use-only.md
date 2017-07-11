@@ -1,6 +1,10 @@
 ---
 title: For Machine Use Only
+description: Research the following artists
 date: 2016-12-02T10:37:00-08:00
+tags: [
+  "art"
+  ]
 ---
 
 ![machineuse.jpg](/uploads/machineuse.jpg)

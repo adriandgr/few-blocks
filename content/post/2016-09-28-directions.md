@@ -1,7 +1,12 @@
 ---
 title: Untitled (You Won't Get Any More Details in a Bracketed Subtitle)
+description: Disclaimer, this is going to be a rant.
 date: 2016-09-28T13:00:00-07:00
 hidden: true
+draft: true
+tags: [
+  "rant"
+  ]
 ---
 
 ![rainbow](/uploads/dark-side-moon.jpg)

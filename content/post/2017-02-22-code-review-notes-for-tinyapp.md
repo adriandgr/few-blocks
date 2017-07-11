@@ -1,6 +1,11 @@
 ---
-title: Code review notes for TinyApp
+title: TinyApp
+description: Code review notes for my first bootcamp project.
 date: 2017-02-22T16:22:00-08:00
+tags: [
+  "code review",
+  "bootcamp"
+  ]
 ---
 
 <a href="/uploads/kortos.jpg"><img src="/uploads/kortos.jpg" width="600px"></a>

@@ -15,8 +15,8 @@ hasCJKLanguage = true
 [params]
 	name = "few blocks"
 	author = "Adrian Diaz"
-	description = "Blog Description"
-	bio = "some catchy thing"
+	description = "Intersections of art and technology"
+	bio = "Intersections of art and technology"
 	# Enter optionally your twitter account
 	twitter = "ONZOart"
 	enableRSS = false

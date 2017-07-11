@@ -1,6 +1,11 @@
 ---
-title: things to review
+title: To review
+description: Things I've noted down throughout my bootcamp as important resources or things to go back to.
 date: 2017-02-21T09:18:00-08:00
+tags: [
+  "notes",
+  "bootcamp"
+  ]
 ---
 
 ## basic features

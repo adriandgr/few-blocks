@@ -9,8 +9,11 @@ tags: [
   ]
 ---
 
-![Screenshot 2017-07-02 21.32.59.png](/uploads/Screenshot%202017-07-02%2021.32.59.png)
-Slide from [Rethinking Best Practices](https://www.slideshare.net/floydophone/react-preso-v2)
+
+> However **isolated scope** creates a new problem: if a **transcluded** DOM is a child of the widget isolated scope then it will not be able to **bind** to anything. Fot this reason the transcluded scope is a **child** of the **original scope**, before the widget created an isolated scope for its local variables. This makes the transcluded and widget isolated scope **siblings**
+>
+> Slide from [Rethinking Best Practices](https://www.slideshare.net/floydophone/react-preso-v2)
+
 
 ## Up and Running
 

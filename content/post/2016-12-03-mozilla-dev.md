@@ -1,6 +1,10 @@
 ---
 title: Notes to "Real Art Direction on the Web"
+description: Notes and things to look up.
 date: 2016-12-03T09:30:00-08:00
+tags: [
+  "notes"
+  ]
 ---
 
 <a href="https://youtu.be/5Z7lSSMwRgo"><img src="/uploads/css.png" width="600px"></a>
