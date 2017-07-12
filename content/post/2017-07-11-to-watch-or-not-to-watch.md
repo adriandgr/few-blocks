@@ -89,3 +89,15 @@ Convenience is a big factor. I think these types of tools ought to be more criti
 ## Discussion
 
 Do you have an opinion on the subject? Would you eject your project to have access beyond the functionality provided by `react-scripts` or start a separate watch process as it is suggested in the Create React App docs? Give me a twitter shout-out [@ONZOart](https://twitter.com/intent/tweet?text=Thinking%20about%20watching%20or%20not%20watching&url=http%3A%2F%2Fbit.ly%2FnodeWatch&via=ONZOart) with your response.
+
+## Related readings
+
+I'm not the first one to ask this question (in a slightly different formulation).
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">To eject or not to eject? <a href="https://twitter.com/hashtag/CreateReactApp?src=hash">#CreateReactApp</a> <a href="https://twitter.com/hashtag/CRA?src=hash">#CRA</a></p>&mdash; Mihir K (@KarandikarMihir) <a href="https://twitter.com/KarandikarMihir/status/880031707600113664">June 28, 2017</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+This post is meant to be the beginning of a deeper dive into `create-react-app`. For the faults I mentioned above I think other people have things to say about them. It doesn't have to be a make or break situation. Here are a few readings I found interesting:
+
+- [Porting enterprise React app to create-react-app](https://medium.com/@KarandikarMihir/porting-enterprise-react-app-to-create-react-app-bfb565a25460)
+- [Configure create-react-app without ejecting ⏏](https://medium.com/@kitze/configure-create-react-app-without-ejecting-d8450e96196a)

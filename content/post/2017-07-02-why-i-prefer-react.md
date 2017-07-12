@@ -7,6 +7,8 @@ tags: [
   "angular",
   "frameworks",
   ]
+aliases:
+  - /blog/why-i-prefer-react
 ---
 
 
