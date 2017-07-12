@@ -2,9 +2,10 @@
 title: For Machine Use Only
 description: Research the following artists
 date: 2016-12-02T10:37:00-08:00
-tags: [
-  "art"
-  ]
+tags:
+  - art
+aliases:
+  - /blog/for-machine-use-only
 ---
 
 ![machineuse.jpg](/uploads/machineuse.jpg)

@@ -2,11 +2,12 @@
 title: Tweeter App
 description: Code review for this jquery based project
 date: 2017-03-01T02:39:00-08:00
-tags: [
-  "jquery",
-  "bootcamp",
-  "code review"
-  ]
+tags:
+  - jquery
+  - bootcamp
+  - code review
+aliases:
+  - /blog/notes-for-tweeter-app
 ---
 
 [App deployed to Heroku](http://app.fewblocks.ca/)

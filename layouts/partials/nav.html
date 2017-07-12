@@ -1,4 +1,4 @@
-<nav class="main-nav{{ if .IsHome }} gradient{{ end }}">{{ $url := replace .Permalink .Site.BaseURL "" }}{{ if not .IsHome }}
+<nav class="main-nav{{ if .IsNode }} gradient{{ end }}">{{ $url := replace .Permalink .Site.BaseURL "" }}{{ if not .IsHome }}
     <a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
     {{ end }}
     <a href='{{ .Site.BaseURL }}post'>{{ with .Site.Params.archive }}{{ . }}{{ else }}Archive{{ end }}</a>

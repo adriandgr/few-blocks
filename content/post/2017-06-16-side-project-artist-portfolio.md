@@ -2,11 +2,12 @@
 title: 'Side Project: Artist Portfolio'
 description: Quick project for a friend built with Jekyll.
 date: 2017-06-16T07:35:00-04:00
-tags: [
-  "jekyll",
-  "site generators",
-  "projects",
-  ]
+tags:
+  - jekyll
+  - site generators
+  - projects
+aliases:
+  - /blog/side-project-artist-portfolio
 ---
 
 <img style='height: 100%; width: 100%; object-fit: contain' src='/uploads/Screenshot%202017-06-19%2010.37.35.png'/>

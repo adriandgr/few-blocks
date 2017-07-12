@@ -2,11 +2,10 @@
 title: Why I prefer React
 description: Compared to other frameworks, I find development in React more enjoyable for the time being.
 date: 2017-07-02T18:47:00-04:00
-tags: [
-  "react",
-  "angular",
-  "frameworks",
-  ]
+tags:
+  - react
+  - angular
+  - frameworks
 aliases:
   - /blog/why-i-prefer-react
 ---

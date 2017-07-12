@@ -2,13 +2,10 @@
 title: "To watch or not to watch"
 description: "A few questions about build tools and the purposes they ought to be fulfilling."
 date: 2017-07-11T18:13:27-04:00
-tags: [
-  "discussion",
-  "performance",
-  "dev tools"
-]
-next: /tutorials/github-pages-blog
-prev: /tutorials/automated-deployments
+tags:
+  - discussion
+  - react
+  - dev tools
 ---
 
 There's been a question on my mind in regards to best practices for compiling files from `.scss` to `.css`, specifically for use in React projects.

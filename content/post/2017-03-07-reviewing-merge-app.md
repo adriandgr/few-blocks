@@ -2,11 +2,12 @@
 title: Reviewing Merge App
 description: Code review notes for bootcamp midterm assignment.
 date: 2017-03-07T02:17:00-08:00
-tags: [
-  "nodejs",
-  "full stack",
-  "bootcamp",
-  ]
+tags:
+  - nodejs
+  - full stack
+  - bootcamp
+aliases:
+  - /blog/reviewing-merge-app
 ---
 
 <a href="/uploads/mockups.jpg"><img src="/uploads/mockups.jpg" width="600px"></a>
