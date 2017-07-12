@@ -1,12 +1,14 @@
 ---
 title: "To watch or not to watch"
-description: "A question about build tools"
+description: "A few questions about build tools and the purposes they ought to be fulfilling."
 date: 2017-07-11T18:13:27-04:00
 tags: [
   "discussion",
   "performance",
   "dev tools"
 ]
+next: /tutorials/github-pages-blog
+prev: /tutorials/automated-deployments
 ---
 
 There's been a question on my mind in regards to best practices for compiling files from `.scss` to `.css`, specifically for use in React projects.
@@ -69,10 +71,21 @@ With all the robust features provided by this tool it seemed unlikely that there
   }
 ```
 
+After installing the required dependencies and modifying the start scripts as shown above, you had a working solution where any `.scss` file found in the `/src` directory would be complied to `.css` and outputted to the same location. I wasn't particularly impressed with this solution as it required to have twice as many style files in my `/src` directory. Furthermore, it just felt like I was taking a step back in terms of tooling. After all, webpack is supposed to be your go to build tool and this solution placed it on the sideline.
 
 
-```
-node-sass-chokidar src/ -o src/ --watch --recursive
-```
+## node-sass-what?
 
-Do you have an opinion on the subject? Give me a twitter shout-out [@ONZOart](https://twitter.com/intent/tweet?text=Thinking%20about%20watching%20or%20not%20watching&url=http%3A%2F%2Fbit.ly%2FnodeWatch&via=ONZOart)
+This finally brings me to the real questions that were prompted by this experience. Why choose another cli tool to watch and compile sass files? And while I'm at it, what is chokidar? According to the `create-react-app` docs, the normal `node-sass` module uses a watch process that is too wasteful on system resource. The `node-sass-chokidar` project README cites a similar reason and goes on to make claims that `node-sass` is up to 300% less efficient.
+
+I understood the reason why the `create-react-app` developers chose the chokidar version of `node-sass`, after all, I had experience instabilities with `node-sass` in the past, which sometimes even led to runtime errors (most of which I solved by re-installing `node-sass`). What I still didn't get was why not opt in for a webpack solution.
+
+## Black box tools
+
+The title of this post might not be quite on point, as the most substantial questions that follow lean more towards questions about tooling and why people choose `create-react-app` itself.
+
+Convenience is a big factor. I think these types of tools ought to be more critical about their end goals and the ways in which they achieve them. I believe the best tool is one which is powerful yet configurable. Because of this, I think that the maintainers of `create-react-app` have made a mistake by obscuring the majority of the configuration options inside of `react-scripts` (a black box).
+
+## Discussion
+
+Do you have an opinion on the subject? Would you eject your project to have access beyond the functionality provided by `react-scripts` or start a separate watch process as it is suggested in the Create React App docs? Give me a twitter shout-out [@ONZOart](https://twitter.com/intent/tweet?text=Thinking%20about%20watching%20or%20not%20watching&url=http%3A%2F%2Fbit.ly%2FnodeWatch&via=ONZOart) with your response.
