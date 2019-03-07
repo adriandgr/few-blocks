@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/highlight.css">
   {{ range .Site.Params.customCSS }}<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">{{ end }}
   {{ if eq .Site.Params.iconFont "font-awesome" }}<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css">
-  {{ else }}<link rel="stylesheet" href="{{ .Site.BaseURL }}css/monosocialiconsfont.css">{{ end }}{{ if .Site.Params.enableRSS }}
+  {{ else }}<link rel="stylesheet" href="{{ .Site.BaseURL }}css/monosocialiconsfont.css">{{ end }}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>{{ if .Site.Params.enableRSS }}
   <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />{{ end }}
 </head>
